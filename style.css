@@ -43,6 +43,7 @@ ul li a:hover, ul li .active{
 .laptop_image{
 	           width:100%;
 	           height:40%;
+		   opacity:0.5;
              }
 .banner_image{
 	           position:relative;
@@ -50,9 +51,6 @@ ul li a:hover, ul li .active{
                box-shadow: 0 0 20px 2px rgba(0,0,0.1);
 			   border-style:dassed/*dotted/*ridge*/;
 			   border-radius:200px 0px 200px 0px;
-             }
-.laptop_image{
-	           opacity:0.5;
              }
 .center_text{
 	          position:absolute;
