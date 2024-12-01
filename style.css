@@ -59,5 +59,22 @@ ul li a:hover, ul li .active{
 	          left:50%;
 	          transform:translate(-50%,-50%);
             }
+.typing{
+	color:rgb(37,60,178);
+	border-right:.15rem solid orange;
+	font-size:1rem;
+	width:0;
+	white-space:nowrap;
+	overflow:hidden;
+	animation: typing 10s steps(30,end) infinite forwards;
+}
+@keyframes typing{
+	0%{
+		width: 0;
+	}
+  100%{
+		width:100%;
+	}
+}			
 
 
