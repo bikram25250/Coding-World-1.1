@@ -54,6 +54,7 @@ ul li a:hover, ul li .active{
              }
 .center_text{
 	          position:absolute;
+	          font-size: 17px;
 	          top:50%;
 	          left:50%;
 	          transform:translate(-50%,-50%);
