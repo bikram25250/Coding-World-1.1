@@ -62,7 +62,7 @@ ul li a:hover, ul li .active{
 .typing{
 	color:rgb(37,60,178);
 	border-right:.15rem solid orange;
-	font-size:1rem;
+	font-size:17px;
 	width:0;
 	white-space:nowrap;
 	overflow:hidden;
