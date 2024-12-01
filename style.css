@@ -72,7 +72,7 @@ ul li a:hover, ul li .active{
 	0%{
 		width: 0;
 	}
-  100%{
+  10%{
 		width:100%;
 	}
 }			
