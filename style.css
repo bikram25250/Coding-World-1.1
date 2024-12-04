@@ -100,5 +100,35 @@ ul li a:hover, ul li .active{
 	margin-right:50px;
 }
 
+/* ======================================================== Part of our course ================================================ */
+.courses{
+	font-size:28px;
+	text-align:center;
+}
+.course{
+	width:100% auto;
+	padding:5px;
+}
+.course_name{
+	height:60px;
+	margin:10px;
+	margin-left:60px;
+	margin-right:60px;
+	box-shadow:0 0 20px rgba(0,0,0.1);
+    border:1px solid red;
+	 background-color:rgb(2,2,26);
+	border-radius:20px;
+}
+.c{
+	font-size:20px;
+	text-align:center;
+	color:cyan;
+}
+a{
+	text-decoration:none;
+}
+
+
+
 
 
