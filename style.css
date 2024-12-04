@@ -82,6 +82,7 @@ ul li a:hover, ul li .active{
 .Website_logo{
 	display:flex;
 	justify-content:center;
+	background-color:white;
 }
 .web_logo{
 	height:250px;
