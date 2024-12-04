@@ -75,6 +75,18 @@ ul li a:hover, ul li .active{
   10%{
 		width:100%;
 	}
-}			
+}
+
+/* ======================================================= Part of Our Mission ============================================== */	
+
+.welcome{
+	font-size:28px;
+	text-align:center;
+}	
+.message{
+	margin-left:50px;
+	margin-right:50px;
+}
+
 
 
