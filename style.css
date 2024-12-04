@@ -77,6 +77,18 @@ ul li a:hover, ul li .active{
 	}
 }
 
+/*=========================================================== Part of logo =================================================*/
+
+.Website_logo{
+	display:flex;
+	justify-content:center;
+}
+.web_logo{
+	height:250px;
+	width:260px;
+	border-radius:200%;
+}
+
 /* ======================================================= Part of Our Mission ============================================== */	
 
 .welcome{
