@@ -103,43 +103,35 @@ ul li a:hover, ul li .active{
 /* ======================================================== Part of our course ================================================ */
 
 .course_container{
-	position:relative;
 	width:100% auto;
 	display:flex;
 	justify-content:center;
-	text-align:center;
-	flex-wrap:wrap;
-	cursor:pointer;
+	margin-left:60px;
+	margin-right:60px;
 }
 .image_box{
-	margin-inline:25px;
-	background-color:orange;
-	box-shadow:0 0 20px 2px rgba(0,0,0.1);
-}
-.image{
-	display:block;
-	width:200px;
+	width:210px;
 	height:200px;
+	margin:10px;
+	padding:10px;
+	margin-inline:20px;
+	box-shadow:0 0 20px 2px rgba(0,0,0.1);
+	background-color:rgb(2,2,26);
 	border-radius:20px;
-}
-.overlay{
-	position:relative;
-	bottom:0;
-	background:rgb(0,0,0);
-	background:rgba(0,0,0,0.5);
-	border-radius:20px;
-	transition:.6s ease;
-	opacity:0;
-	color:white;
+	transition:1s;
 	font-size:20px;
 }
-.course_container:hover .overlay{
-	opacity:1;
+img{
+	border-radius:20px;
+}
+.image_box:hover{
+	transform:scale(1.1);
+	z-index:1;
 }
 a{
 	text-decoration:none;
+	color:cyan;
 }
-
 
 
 
