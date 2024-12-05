@@ -101,32 +101,45 @@ ul li a:hover, ul li .active{
 }
 
 /* ======================================================== Part of our course ================================================ */
-.courses{
-	font-size:28px;
-	text-align:center;
-}
-.course{
+
+.course_container{
+	position:relative;
 	width:100% auto;
-	padding:5px;
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	flex-wrap:wrap;
+	cursor:pointer;
 }
-.course_name{
-	height:60px;
-	margin:10px;
-	margin-left:60px;
-	margin-right:60px;
-	box-shadow:0 0 20px rgba(0,0,0.1);
-    border:1px solid red;
-	 background-color:rgb(2,2,26);
+.image_box{
+	margin-inline:25px;
+	background-color:orange;
+	box-shadow:0 0 20px 2px rgba(0,0,0.1);
+}
+.image{
+	display:block;
+	width:200px;
+	height:200px;
 	border-radius:20px;
 }
-.c{
+.overlay{
+	position:relative;
+	bottom:0;
+	background:rgb(0,0,0);
+	background:rgba(0,0,0,0.5);
+	border-radius:20px;
+	transition:.6s ease;
+	opacity:0;
+	color:white;
 	font-size:20px;
-	text-align:center;
-	color:cyan;
+}
+.course_container:hover .overlay{
+	opacity:1;
 }
 a{
 	text-decoration:none;
 }
+
 
 
 
