@@ -153,6 +153,61 @@ a{
 	border-radius:20px;
 }
 
+/* ======================================================== Part of footer section ======================================= */
+
+.footer_container{
+	width:100% auto;
+	margin-top:20px;
+	justify-content:space-evenly;
+	display:flex;
+	background-color:rgb(2,2,26);
+	color:white;
+}
+.footer_scetion{
+	width:100% auto;
+	margin-inline:20px;
+}
+.footer_logo{
+	height:120px;
+	width:140px;
+	border-radius:200%;
+	margin-top:50px;
+
+}
+.divider{
+	width:100px;
+	height:3px;
+	display:inline-block;
+	background-color:orange;
+}
+.i{
+	display:flex;
+	align-items:center;
+	margin:2px;
+	padding:2px;
+	height:15%;
+}
+h5{
+	font-size:15px;
+}
+.fa-brands{
+	font-size:30px;
+	margin-inline:5px;
+	
+}
+.devloper_name{
+	margin:4px;
+	padding:4px;
+	margin-top:-18px;
+	text-align:center;
+	background-color:#e8edf2;
+}
+.icon{
+	margin:5px;
+	padding:5px;
+}
+
+
 
 
 
