@@ -10,8 +10,8 @@ body{
 nav{
 	 display:flex;
 	 justify-content:space-between;
-	 background-color:rgb(2,2,26);
-	 color:white;
+	 background-color:/*rgb(2,2,26)*/ white;
+	 color:black;
 
    }	
 nav ul{
@@ -199,7 +199,6 @@ h5{
 	margin-top:-35px;
 	text-align:center;
 	background-color:#e8edf2;
-	border:1px solid red;
 }
 .icon{
 	margin:5px;
