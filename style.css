@@ -10,8 +10,8 @@ body{
 nav{
 	 display:flex;
 	 justify-content:space-between;
-	 background-color:/*rgb(2,2,26)*/ white;
-	 color:black;
+	 background-color:rgb(2,2,26);
+	 color: white;
 
    }	
 nav ul{
@@ -160,8 +160,8 @@ a{
 	margin-top:30px;
 	justify-content:space-evenly;
 	display:flex;
-	background-color:rgb(2,2,26);
-	color:white;
+	background-color:/*rgb(2,2,26)*/ white;
+	color:black;
 }
 .footer_scetion{
 	width:100% auto;
