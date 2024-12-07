@@ -38,3 +38,89 @@ ul li a:hover, ul li .active{
 	   margin-left:60px;
 	   font-size:18px;
      }	
+
+/* ================================================================== Part of about message ============================================= */
+
+.about{
+	margin-left:60px;
+	margin-right:60px;
+	display:flex;
+	margin-top:30px;
+}	 
+.web_logo{
+	height:150px;
+	width:150px;
+	border-radius:200%;
+}
+.divider{
+	margin-inline:10px;
+	width:3px;
+	height:130px;
+	display:inline-block;
+	background-color:orange;
+}
+.L{
+	display:flex;
+	align-items:center;
+}
+.heading{
+	font-size:28px;
+	color:
+}
+.message{
+	margin-left:60px;
+	margin-right:60px;
+	margin-top:30px;
+}
+/* ======================================================== Part of footer section ======================================= */
+
+.footer_container{
+	width:100% auto;
+	margin-top:30px;
+	justify-content:space-evenly;
+	display:flex;
+	background-color:#d4e6f1;
+	color:black;
+}
+.footer_scetion{
+	margin:15px;
+	width:100% auto;
+	margin-inline:20px;
+}
+.footer_logo{
+	height:120px;
+	width:140px;
+	border-radius:200%;
+	margin-top:50px;
+
+}
+.divide{
+	width:100px;
+	height:3px;
+	display:inline-block;
+	background-color:orange;
+}
+.i{
+	display:flex;
+	align-items:center;
+	margin:2px;
+	padding:2px;
+	height:15%;
+}
+h5{
+	font-size:15px;
+}
+.fa-brands{
+	font-size:30px;
+	margin-inline:5px;
+	
+}
+.devloper_name{
+	margin-top:-35px;
+	text-align:center;
+	background-color:#e8edf2;
+}
+.icon{
+	margin:5px;
+	padding:5px;
+}
