@@ -1,0 +1,77 @@
+/* ========================================== Part of Navigation (NAV) ================================*/
+
+*{
+   font-family:'roboto',sans-serif;	
+ }
+body{
+	  margin:0%;
+	  padding:0%;
+	  background-color:#e8edf2;
+    } 
+nav{
+	 display:flex;
+	 justify-content:space-between;
+	 background-color:rgb(2,2,26);
+	 color:white;
+
+   }	
+nav ul{
+	   display:flex;
+	   align-items:center;
+
+      }   
+ul li{
+	   list-style:none;
+     }  
+ul li a{
+	     text-decoration:none;
+		 margin-inline:14px;
+		 color:white;
+		 font-size:18px;
+		 margin-right:50px;
+       }
+ul li a:hover, ul li .active{
+	           color:rgb(5,250,5);
+			   border-bottom:2px solid white;
+             }	 		 
+.logo{
+	   margin-left:60px;
+	   font-size:18px;
+     }	
+
+/*=========================================================== Part of back ====================================================== */
+
+.back{
+	display:flex;
+	align-items:center;
+	margin-left:60px;
+	margin-right:60px;
+}
+a{
+	text-decoration:none;
+	margin-inline:8px;
+	font-size:20px;
+}
+.now{
+	margin-inline:8px;
+	color:gray;
+}
+.fa-solid{
+	color:black;
+}
+
+/*====================================================== Part of assignment (fieldset/legend) ============================================ */
+FIELDSET{
+	margin-top:30px;
+	margin-left:60px;
+	margin-right:60px;
+}
+LEGEND{
+	color:blue;
+	font-size:20px;
+	border:1px solid black;
+	text-align:center;
+}
+.choose{
+	text-align:center;
+}
