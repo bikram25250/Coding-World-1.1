@@ -25,24 +25,30 @@
 <DIV class="main">
  <DIV class="register">
     <FORM id="register" method="post" name="google-sheet">
-	 <LABEL><B> Name <font color="red" size="5px">*</font></B></LABEL>
-	 <INPUT type="text" name="name" id="name" placeholder="Enter your name..." required>
 	 
-	 <LABEL><B> Mobile no <font color="red" size="5px">*</font></B></LABEL>
-	 <INPUT type="text" name="number" id="number" placeholder="Enter mobile number..." required>
-	 
-	 <LABEL><B> Email <font color="red" size="5px">*</font></B></LABEL>
-	 <INPUT type="text" name="email" id="name" placeholder="Enter email id..." required>
-	 
-	 <LABEL><B> Course Name <font color="red" size="5px">*</font></B></LABEL>
-	 <INPUT type="text" name="course" id="name" placeholder="Enter course name..." required>
-	 
-	 <input type="submit" value="submit" id="submit">
+	<TABLE border="0px" cellspacing="5px" cellpadding="0px">
+	   
+	   <TR>
+	   <TD><B> Candidate Name<FONT color="red" size="5px">*</FONT></B></TD> 
+	   <TD><INPUT type="text" name="Candidate Name" placeholder="Enter your name..." required></TD>
+	   
+	   <TD><B> Guardian Name<FONT color="red" size="5px">*</FONT></B></TD> 
+	   <TD><INPUT type="text" name="Guardian Name" placeholder="Enter your guardian name..." required></TD>
+
+	   <TD><B> Date of Birth<FONT color="red" size="5px">*</FONT></B></TD> 
+	   <TD><INPUT type="Date" name="Date of Birth" required></TD>
+	   
+	   <TD><B> Nationality<FONT color="red" size="5px">*</FONT></B></TD> 
+	   <TD><SELECT name="Nationality">
+	           <OPTION>Select</OPTION>
+			   <OPTION name="Nationality" value="Indian">Indian</OPTION>
+	   </SELECT></TD></TR>
+		
+	</TABLE>
 	
-</FORM> 
+    </FORM> 
  </DIV>
 </DIV>
-
 <script>
 			const scriptURL = 'https://script.google.com/macros/s/AKfycbx-sycT7fw6yrdjYQnMnCTGLV52pKw44ASeMe3Kt6WVRAcyH5nkUhn0hrFebso0xHPZ/exec'
 			const form = document.forms['google-sheet']
