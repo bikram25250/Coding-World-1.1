@@ -1,0 +1,63 @@
+/* ========================================== Part of Navigation (NAV) ================================*/
+
+*{
+   font-family:'roboto',sans-serif;	
+ }
+body{
+	  margin:0%;
+	  padding:0%;
+	  background-color:#e8edf2;
+    } 
+nav{
+	 display:flex;
+	 justify-content:space-between;
+	 background-color:rgb(2,2,26);
+	 color:white;
+
+   }	
+nav ul{
+	   display:flex;
+	   align-items:center;
+
+      }   
+ul li{
+	   list-style:none;
+     }  
+ul li a{
+	     text-decoration:none;
+		 margin-inline:14px;
+		 color:white;
+		 font-size:18px;
+		 margin-right:50px;
+       }
+ul li a:hover, ul li .active{
+	           color:rgb(5,250,5);
+			   border-bottom:2px solid white;
+             }	 		 
+.logo{
+	   margin-left:60px;
+	   font-size:18px;
+     }	
+/*============================================================= Part of registration form ========================================== */
+h2{
+	margin-left:60px;
+}
+.register{
+	margin-top:30px;
+	display:flex;
+	margin-left:60px;
+	margin-right:60px;
+}
+.input{
+	border:1px solid red;
+	width:50%;
+}
+input{
+	padding:5px;
+}
+::placeholder{
+	padding:20px;;
+}
+#submit{
+	cursor:pointer;
+}
