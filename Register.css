@@ -61,3 +61,7 @@ input{
 #submit{
 	cursor:pointer;
 }
+select{
+	width:150%;
+	height:30px;
+}
