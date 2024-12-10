@@ -19,14 +19,14 @@
 	  </UL>
 </NAV>
 
-  <!--===================================================== Part registration form ============================================-->
+<!--===================================================== Part registration form ============================================-->
 <h2> <font color="gray"> Student Registration Form </font> </h2>
 
 <DIV class="main">
  <DIV class="register">
     <FORM id="register" method="post" name="google-sheet">
 	 
-	<TABLE border="0px" cellspacing="5px" cellpadding="0px">
+	<TABLE border="0px" cellspacing="0px" cellpadding="3px" align="center">
 	   
 	   <TR>
 	   <TD><B> Candidate Name<FONT color="red" size="5px">*</FONT></B></TD> 
@@ -36,20 +36,22 @@
 	   <TD><INPUT type="text" name="Guardian Name" placeholder="Enter your guardian name..." required></TD>
 
 	   <TD><B> Date of Birth<FONT color="red" size="5px">*</FONT></B></TD> 
-	   <TD><INPUT type="Date" name="Date of Birth" required></TD>
+	   <TD><INPUT type="Date" name="Date of Birth" required></TD></TR>
 	   
-	   <TD><B> Nationality<FONT color="red" size="5px">*</FONT></B></TD> 
+	   <TR><TD><B> Nationality<FONT color="red" size="5px">*</FONT></B></TD> 
 	   <TD><SELECT name="Nationality">
 	           <OPTION>Select</OPTION>
 			   <OPTION name="Nationality" value="Indian">Indian</OPTION>
 	   </SELECT></TD></TR>
 		
 	</TABLE>
-	<INPUT type="submit" value="submit" id="submit">
+	<input type="submit" value="submit" id="submit">
+	
     </FORM> 
  </DIV>
 </DIV>
-<script>
+
+	<script>
 			const scriptURL = 'https://script.google.com/macros/s/AKfycbx-sycT7fw6yrdjYQnMnCTGLV52pKw44ASeMe3Kt6WVRAcyH5nkUhn0hrFebso0xHPZ/exec'
 			const form = document.forms['google-sheet']
 		  
