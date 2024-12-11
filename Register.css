@@ -42,27 +42,46 @@ ul li a:hover, ul li .active{
 h2{
 	margin-left:60px;
 }
-.register{
-	border:1px solid red;
-	margin-top:30px;
+.main{
 	display:flex;
-	flex-wrap:wrap;
 	justify-content:center;
 }
-.input{
-	border:1px solid red;
-	width:50%;
-}
 input{
-	padding:5px;
+	padding:6px;
 }
 ::placeholder{
-	padding:5px;;
-}
-#submit{
-	cursor:pointer;
+	padding:5px;
 }
 select{
 	width:100%;
 	height:30px;
+}
+.submit_reset{
+	text-align:center;
+}
+#reset{
+	width:10%;
+	height:6%;
+	cursor:pointer;
+	background-color:red;
+	color:white;
+	border:1px solid black;
+	border-radius:20px;
+}
+#submit{
+	width:10%;
+	height:6%;
+	cursor:pointer;
+	background-color:green;
+	color:white;
+	border:1px solid black;
+	border-radius:20px;
+}
+input#submit:hover{
+	background-color:black;
+	border:2px solid blue;
+}
+input#reset:hover{
+	background-color:black;
+	border:2px solid blue;
 }
