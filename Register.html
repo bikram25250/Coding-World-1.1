@@ -20,71 +20,67 @@
 </NAV>
 
 <!--===================================================== Part registration form ============================================-->
-<h2> <font color="gray"> Registration Form </font> </h2>
-
- <DIV class="main">
+<DIV class="main">
     <DIV class="register">
 	<FORM id="register" method="post" name="google-sheet">
 	
 	<TABLE border="0px" cellspacing="2px" cellpadding="3px">
 	
-	<TR>
-	<TD><B> Candidate Name<FONT color="red" size="5px">*</FONT></B> <BR>
-	    <INPUT type="text" name="Candidate Name" placeholder="Enter your name..." required> </TD>
-		
-	<TD><B> Guardian Name<FONT color="red" size="5px">*</FONT></B> <BR>
-	    <INPUT type="text" name="Guardian Name" placeholder="Enter guardian name..." required> </TD>	
-		
-	<TD><B> Date of Birth<FONT color="red" size="5px">*</FONT></B> <BR>
-	    <INPUT type="date" name="Date of Birth" placeholder="Enter DOB..." required> </TD>	
+	<TR><TH colspan="4"><FONT color="gray"><h2>Registration Form</h2></FONT></TH></TR>
+	
+	<TR> <!--Start 1st table row-->
+	<TD><B> Candidate Name<FONT color="red" size="5px">*</FONT></B></TD>
+	    <TD><INPUT type="text" name="CANDIDATE NAME" placeholder="Enter your full name..." required></TD>
 
-	<TD><B> Nationality<FONT color="red" size="5px">*</FONT></B> <BR>
-	    <SELECT name="Nationality" required>
-		    <OPTION>Select</OPTION>
-		    <OPTION name="Nationality" value="Indian">Indian</OPTION>
-		</SELECT> </TD>			
+	<TD><B> Guardian Name<FONT color="red" size="5px">*</FONT></B></TD>
+	    <TD><INPUT type="text" name="GUARDIAN NAME" placeholder="Enter guardian name..." required></TD> 
 	</TR> <!--End 1st table row-->
-	
-	<TR>
-	<TD><B> Gender<FONT color="red" size="5px">*</FONT></B> <BR> 
-	    <SELECT name="Gender" required>
-		    <OPTION>Select</OPTION>
-		    <OPTION name="Gender" value="Male">Male</OPTION>
-		    <OPTION name="Gender" value="Female">Female</OPTION>
-		</SELECT> </TD> 
-	
-	<TD><B> Contact Number<FONT color="red" size="5px">*</FONT></B> <BR>
-        <INPUT type="text" name="Contact Number" placeholder="Enter contact number..." required> </TD>
-		
-	<TD><B> Whats app Number<FONT color="red" size="5px">*</FONT></B> <BR>
-	    <INPUT type="text" name="Whats app No" placeholder="Enter whats app number..." required> </TD>	
-	
+
+	<TR> <!--Start 2nd table row-->
+	<TD><B> Date of Birth<FONT color="red" size="5px">*</FONT></B></TD>
+	    <TD><INPUT type="date" name="DATE OF BIRTH" placeholder="Date of birth" required></TD>
+
+	<TD><B> Nationality<FONT color="red" size="5px">*</FONT></B></TD>
+		<TD><SELECT name="NATIONALITY" required>
+		       <OPTION>Select</OPTION>  
+		       <OPTION  name="NATIONALITY" value="Indian">Indian</OPTION>  
+		    </SELECT></TD>
 	</TR> <!--End 2nd table row-->
 	
-	<TR>
-		
-	<TD><B> Email<FONT color="red" size="5px">*</FONT></B> <BR>
-	    <INPUT type="text" name="Email Id" placeholder="Enter email id..." required> </TD>	
-		
-	<TD><B> Address<FONT color="red" size="5px">*</FONT></B> <BR>
-	   <TEXTAREA cols="24" placeholder="Enter your address..." required> </TEXTAREA></TD>
-	
+	<TR> <!--Start 3rd table row-->
+	<TD><B> Gender<FONT color="red" size="5px">*</FONT></B></TD>
+	    <TD><SELECT name="GENDER" required>
+		       <OPTION>Select</OPTION>
+		       <OPTION name="GENDER" value="Male"> Male</OPTION>
+		       <OPTION name="GENDER" value="Female"> Female</OPTION>
+		    </SELECT></TD>
+			
+	<TD><B> Contact Number<FONT color="red" size="5px">*</FONT></B></TD>
+         <TD><INPUT type="text" name="CONTACT NUMBER" placeholder="Enter contact number..." required></TD>	
 	</TR> <!--End 3rd table row-->
 	
-	</TABLE> <!--End table-->
+	<TR> <!--Start 4th table row-->
+	<TD><B> Whats app Number<FONT color="red" size="5px">*</FONT></B></TD>
+	    <TD><INPUT type="text" name="WHATS APP NUMBER" placeholder="Enter Whats app no..." required></TD>
+		
+	<TD><B> Email<FONT color="red" size="5px">*</FONT></B></TD>
+	    <TD><INPUT type="text" name="EMAIL ID" placeholder="Enter valid email id..." required></TD>	
+	</TR> <!--End 4th table row-->
+
+	<TR> <!--Start 5th table row-->
+	
+	<TD><B> Permanent Address<FONT color="red" size="5px">*</FONT></B></TD>
+		<TD colspan="3"> <TEXTAREA rows="3" cols="72" name="ADDRESS" placeholder="Enter your permanent address..." required></TEXTAREA> </TD>
+	</TR> <!--End 5th table row-->	
+	
+	<TR><TD colspan="4" align="center" class="submit"><INPUT type="Reset" value="Reset" id="Reset">
+	    <INPUT type="Submit" value="Submit" id="Submit"></TD></TR>
 	
 	</DIV> <!--End register div--> 
  </DIV> <!--End main div-->
- 
- <DIV class="submit_reset">
- 
-    <INPUT type="reset" value="Reset" id="reset">
-    <INPUT type="submit" value="Submit" id="submit">
-	
- </DIV>
  </FORM> <!--End form-->
 
-	 <!--==================================================== Part of java script ================================================-->
+			<!--==================================================== Part of java script ================================================-->
 		   
 	<script>
 			const scriptURL = 'https://script.google.com/macros/s/AKfycbx-sycT7fw6yrdjYQnMnCTGLV52pKw44ASeMe3Kt6WVRAcyH5nkUhn0hrFebso0xHPZ/exec'
