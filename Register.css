@@ -54,8 +54,9 @@ input{
 	padding:5px;
 }
 select{
-	width:100%;
-	height:30px;
+	/*width:100%;
+	height:30px;*/
+	padding:6px;
 }
 #reset{
 	width:20%;
