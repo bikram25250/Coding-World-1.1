@@ -20,11 +20,11 @@
 </NAV>
 
 <!--===================================================== Part registration form ============================================-->
-<DIV class="main">
+ <DIV class="main">
     <DIV class="register">
 	<FORM id="register" method="post" name="google-sheet">
 	
-	<TABLE border="0px" cellspacing="2px" cellpadding="3px">
+	<TABLE border="0px" cellspacing="4px" cellpadding="3px">
 	
 	<TR><TH colspan="4"><FONT color="gray"><h2>Registration Form</h2></FONT></TH></TR>
 	
@@ -60,38 +60,37 @@
 	</TR> <!--End 3rd table row-->
 	
 	<TR> <!--Start 4th table row-->
-	<TD><B> Whats app Number<FONT color="red" size="5px">*</FONT></B></TD>
-	    <TD><INPUT type="text" name="WHATS APP NUMBER" placeholder="Enter Whats app no..." required></TD>
-		
 	<TD><B> Email<FONT color="red" size="5px">*</FONT></B></TD>
 	    <TD><INPUT type="text" name="EMAIL ID" placeholder="Enter valid email id..." required></TD>	
-	</TR> <!--End 4th table row-->
-
-	<TR> <!--Start 5th table row-->
-	<TD><B> Course<FONT color="red" size="5px">*</FONT></B></TD>
+		
+	<TD><B> Choose Course<FONT color="red" size="5px">*</FONT></B></TD>
 	<TD><SELECT name="COURSE" required>
 	        <OPTION>Select</OPTION>
 	        <OPTION name="COURSE" value="Web Development">Web Development</OPTION>
 	        <OPTION name="COURSE" value="C Programming">C Programming</OPTION>
 	        <OPTION name="COURSE" value="JAVA Programming">JAVA Programming</OPTION>
-	    </SELECT></TD>
+	    </SELECT></TD>	
 	
+	</TR> <!--End 4th table row-->
+
+	<TR> <!--Start 5th table row-->
 	<TD><B> Permanent Address<FONT color="red" size="5px">*</FONT></B></TD>
-		<TD> <TEXTAREA rows="3" cols="25" name="ADDRESS" placeholder="Enter your permanent address..." required></TEXTAREA> </TD>
+		<TD colspan="3"> <TEXTAREA rows="5" cols="72" name="ADDRESS" placeholder="Enter your permanent address..." required></TEXTAREA> </TD>
 	</TR> <!--End 5th table row-->	
-			
+	
 	</DIV> <!--End register div--> 
  </DIV> <!--End main div-->
-</TABLE>
+ </TABLE>
+ 
  <DIV class="button">
   <DIV class="submit">
         <INPUT type="Reset" value="Reset" id="Reset">
 	    <INPUT type="Submit" value="Submit" id="Submit">
   </DIV>
  </DIV>
-			
-<DIV class="message"> <FONT color="red"><b>* A student can only apply to one course </b></FONT> </DIV>
-			
+ 
+ <DIV class="message"> <FONT color="red"><b>* A student can only apply to one course </b></FONT> </DIV>
+
  </FORM> <!--End form-->
 
 			<!--==================================================== Part of java script ================================================-->
