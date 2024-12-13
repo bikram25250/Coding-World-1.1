@@ -1,0 +1,102 @@
+<HTML>
+<HEAD>
+<TITLE> Course apply wpdv</TITLE>
+<LINK rel="stylesheet" href="Apply WPDV course.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</HEAD>
+<BODY>
+
+	        <!--=============================================== Part of navigation bar ===============================================-->
+<NAV>
+	  <DIV class="logo">
+        <H1>Coding <FONT color="cyan">World</FONT></H1>
+	  </DIV>
+	  <UL>
+	    <LI><A href="index.html" class="active">Home</A></LI>
+		<LI><A href="about.html">About us</A></LI>
+		<LI><A href="project & assignment.html">Projects & Assignment</A> </LI>
+		<LI><A href="Register.html">Registration</A></LI>
+	  </UL>
+</NAV>
+
+          <!--========================================================= Part of back and now ===========================================-->
+	   
+<DIV class="back">
+
+ <a href="course WPDV.html"> <i class="fa-solid fa-less-than"></i> Back </a> /
+ <p class="now"><B>WEB DEVELOPMENT Course apply</B> </p>
+ 
+</DIV> 
+ 
+		<!--========================================================= Part of table (form) ================================================-->
+
+<FORM id="register" method="post" name="google-sheet">
+
+<TABLE border="0px" cellspacing="3px" cellpadding="5px" align="center">
+	<TR> <!-- Start 1st table row -->
+	<TD><B> Candidate Name<FONT color="red" size="5px">*</B></FONT></TD>
+	    <TD><INPUT type="text" name="CANDIDATE NAME" placeholder="Enter your name..." required></TD>
+		
+	    <TD><B> Guardian Name<FONT color="red" size="5px">*</B></FONT></TD>
+	    <TD><INPUT type="text" name="GUARDIAN NAME" placeholder="Enter your guardian name..." required></TD>	
+	</TR> <!-- End 1st table row -->
+	
+	<TR> <!-- Start 2nd table row -->
+	<TD><B> Gender<FONT color="red" size="5px">*</FONT></B></TD>
+	    <TD><SELECT  name="GENDER" required>
+		        <OPTION>Select</OPTION>   
+		        <OPTION name="GENDER" value="Male">Male</OPTION>   
+		        <OPTION name="GENDER" value="Female">Female</OPTION>   
+	    	</SELECT></TD>
+			
+	<TD><B> ID Number<FONT color="red" size="5px">*</B></FONT></TD>
+	    <TD><INPUT type="text" name="ID NUMBER" placeholder="Enter your ID ..." required>		
+	
+	</TR> <!-- End 2nd table row -->
+	
+	<TR> <!--Start 3rd table row -->
+	<TD><B> Contact Number<FONT color="red" size="5px">*</FONT></B></TD>
+		<TD><INPUT type="text" name="CONTACT NUMBER" placeholder="Enter contact number..." required></TD>
+		
+	<TD><B> Whats app Number<FONT color="red" size="5px">*</FONT></B></TD>
+		<TD><INPUT type="text" name="WHATS APP NUMBER" placeholder="Enter whats app number..." required></TD>	
+	</TR> <!-- End 3rd table row -->
+	
+	<TR> <!-- Start 4th table row -->
+	<TD><B> Course<FONT color="red" size="5px">*</FONT></B></TD>
+	    <TD><SELECT name="COURSE" required>
+		       <OPTION name="COURSE" value="Web Development">Web Development</OPTION>
+			</SELECT>
+		</TD>
+	</TR> <!-- End 4th table row -->
+	
+</TABLE>
+
+ <DIV class="button">
+    <DIV class="submit">
+	  <INPUT type="Reset" value="Reset" id="Reset"> 
+	  <INPUT type="Submit" value="Submit" id="Submit"> 
+	</DIV>
+ </DIV>	
+ 
+</FORM> <!-- End form --> 
+
+     <!-- ========================================================= Part of java script ==============================================-->
+	 
+<script>
+			const scriptURL = 'https://script.google.com/macros/s/AKfycbzF44soViTCNEBgOi0vkiFbf2KY5FJOJc-XDAsMG90XprQKQkK-QpkDm3xggwVy7qZb8Q/exec'
+			const form = document.forms['google-sheet']
+		  
+			form.addEventListener('submit', e => {
+			  e.preventDefault()
+			  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+				.then(response => alert("Thank you! your form is submitted successfully." ))
+				.then(() => {  window.location.reload(); })
+				.catch(error => console.error('Error!', error.message))
+			})
+		  </script>	 
+
+</BODY>
+</HTML>
+
+
