@@ -22,7 +22,7 @@
 <!--===================================================== Part registration form ============================================-->
  <DIV class="main">
     <DIV class="register">
-	<FORM onsubmit="data()" id="register" method="post" name="google-sheet">
+	<FORM id="register" method="post" name="google-sheet">
 	
 	<TABLE border="0px" cellspacing="4px" cellpadding="3px">
 	
@@ -42,7 +42,7 @@
 
 	<TD><B> Nationality<FONT color="red" size="5px">*</FONT></B></TD>
 		<TD><SELECT name="NATIONALITY" required>
-		       <OPTION>Select</OPTION>  
+		       <OPTION value="">--- Select ---</OPTION>  
 		       <OPTION  name="NATIONALITY" value="Indian">Indian</OPTION>  
 		    </SELECT></TD>
 	</TR> <!--End 2nd table row-->
@@ -50,7 +50,7 @@
 	<TR> <!--Start 3rd table row-->
 	<TD><B> Gender<FONT color="red" size="5px">*</FONT></B></TD>
 	    <TD><SELECT name="GENDER" required>
-		       <OPTION>Select</OPTION>
+		       <OPTION value="">--- Select ---</OPTION>
 		       <OPTION name="GENDER" value="Male"> Male</OPTION>
 		       <OPTION name="GENDER" value="Female"> Female</OPTION>
 		    </SELECT></TD>
@@ -65,7 +65,7 @@
 		
 	<TD><B> Choose Course<FONT color="red" size="5px">*</FONT></B></TD>
 	<TD><SELECT name="COURSE" required>
-	        <OPTION>Select</OPTION>
+	        <OPTION value="">--- Select ---</OPTION>
 	        <OPTION name="COURSE" value="Web Development">Web Development</OPTION>
 	        <OPTION name="COURSE" value="C Programming">C Programming</OPTION>
 	        <OPTION name="COURSE" value="JAVA Programming">JAVA Programming</OPTION>
@@ -75,7 +75,7 @@
 
 	<TR> <!--Start 5th table row-->
 	<TD><B> Permanent Address<FONT color="red" size="5px">*</FONT></B></TD>
-		<TD colspan="3"> <TEXTAREA rows="5" cols="72" name="ADDRESS" placeholder="Enter your permanent address..." required></TEXTAREA> </TD>
+		<TD colspan="3"> <TEXTAREA rows="5" cols="72" name="ADDRESS" placeholder="Enter your permanent address...e.g - { Vill / P.O / P.S / STATE / DIST / PIN CODE }" required> </TEXTAREA> </TD>
 	</TR> <!--End 5th table row-->	
 	
 	</DIV> <!--End register div--> 
@@ -92,28 +92,6 @@
  <DIV class="message"> <FONT color="red"><b>* A student can only apply to one course </b></FONT> </DIV>
 
  </FORM> <!--End form-->
-
-<!--==================================================== Part of java script for form validation ===========================================-->
-<script>
-function data()
-{
-   var f=document.getElementById("n6").value;
-   
-   if(f.length<10||f.length>10)
-   {
-     alert("Contact Number should be of 10 digits! Please enter valid number");
-   }
-   else if(isNaN(f))
-   {
-     alert("Only Numbers are allowed! Please enter valid number");
-	 return false;
-   }
-   else
-   {
-     true;
-   }
-}
-</script>  			
 
 			<!--==================================================== Part of java script ================================================-->
 		   
