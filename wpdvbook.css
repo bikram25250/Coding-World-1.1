@@ -46,8 +46,8 @@ p{
 	margin-inline:30px;
 	color:white;
 }
-i{
-	margin-inline:3.5px;
+.fa-download{
+	margin-inline:8.5px;
 }
 .a{
 	background-color:green;
@@ -59,11 +59,11 @@ BUTTON{
 	color:white;
 	background-color:green;
 	border:1px solid white;
-	width:100% auto;
+	width:80%;
 	cursor:pointer;
 	font-size:19px;
 	margin-top:8px;
-	margin-inline:30px;
+	margin-inline:20px;
 }
 img{
 	margin:3px;
