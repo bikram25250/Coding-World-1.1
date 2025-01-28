@@ -34,7 +34,7 @@ marquee{
 	margin-top:20px;
 	display:flex;
 	flex-wrap:wrap;
-	justify-content:space-between;
+	justify-content:start-end;
 }
 p{
 	margin-inline:30px;
