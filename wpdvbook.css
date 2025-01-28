@@ -2,9 +2,29 @@
 	margin:0px;
 	padding:0px;
 }
+/*=============================== Part of close =========================================*/
+.main_close{
+	justify-content:right;
+	text-align:right;
+	font-size:40px;
+	display:flex;
+}
+a{
+	color:white;
+	background-color:red;
+}
+.close{
+	cursor:pointer;
+	color:red;
+	border:1px solid black;
+	margin-right:60px;
+	margin-left:60px;
+}
 /*============================== Part of marquee tag =====================================*/
 marquee{
 	cursor:pointer;
+	HEIGHT:30PX;
+	font-size:25px;
 }
 /*============================== Part of div tag =========================================*/
 .container{
@@ -23,8 +43,10 @@ p{
 i{
 	margin-inline:3.5px;
 }
+.a{
+	background-color:green;
+}
 BUTTON:hover{
-	background-color:gray;
 	color:black;
 }
 BUTTON{
