@@ -18,6 +18,24 @@ marquee{
 }
 p{
 	margin-inline:20px;
+	color:white;
+}
+i{
+	margin-inline:3.5px;
+}
+BUTTON:hover{
+	background-color:gray;
+	color:black;
+}
+BUTTON{
+	color:white;
+	background-color:green;
+	border:1px solid white;
+	width:100% auto;
+	cursor:pointer;
+	font-size:19px;
+	margin-top:8px;
+	margin-inline:20px;
 }
 img{
 	margin:3px;
