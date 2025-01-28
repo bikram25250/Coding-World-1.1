@@ -8,29 +8,30 @@ marquee{
 }
 /*============================== Part of div tag =========================================*/
 .container{
+	width:100% auto;
 	margin-left:60px;
 	margin-right:60px;
 	margin-top:20px;
-	border:1px solid red;
 	display:flex;
 	flex-wrap:wrap;
-	justify-content:space-around;
+	justify-content:space-between;
 }
 p{
 	margin-inline:20px;
 }
 img{
+	margin:3px;
+	padding:3px;
 	height:211px;
-	border:1px solid red;
+
 }
 .book{
-	margin-inline:20px;
 	align-items:center;
 	background-color:green;
 	margin:0px;
 	padding:0px;
 	display:flex;
 	flex-wrap:wrap;
-	border:1px solid red;
+	border:7px solid white;
 	height:211px;
 }
