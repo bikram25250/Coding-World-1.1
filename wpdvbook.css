@@ -36,7 +36,19 @@ marquee{
 	HEIGHT:30PX;
 	font-size:25px;
 }
-/*============================== Part of div tag =========================================*/
+/*============================== Part of book div tag =========================================*/
+.library{
+	margin-left:60px;
+	margin-right:60px;
+	margin:5px;
+}
+.lib_sec{
+		margin-left:60px;
+		margin-right:60px;
+		font-weight:bold;
+		font-size:20px;
+		border-bottom:1px solid black;
+		}
 .container{
 	width:100% auto;
 	margin-left:60px;
