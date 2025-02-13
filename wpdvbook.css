@@ -16,7 +16,7 @@ a{
 }
 .fa-xmark{
 	text-align:center;
-	width:170%;
+	width:17`0%;
 }
 .close1{
 	margin-left:60px;
@@ -54,7 +54,6 @@ marquee{
 	width:100% auto;
 	margin-left:60px;
 	margin-right:60px;
-	margin-top:20px;
 	display:flex;
 	flex-wrap:wrap;
 	justify-content:start-end;
