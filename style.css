@@ -200,6 +200,8 @@ h5{
 .devloper_name{
 	margin-top:-35px;
 	text-align:center;
+	color:gray;
+	padding:15px;
 	background-color:#e8edf2;
 }
 .icon{
