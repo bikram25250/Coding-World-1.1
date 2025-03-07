@@ -97,3 +97,60 @@ img{
 	border:7px solid white;
 	height:211px;
 }
+/* ===================================================================== Part of link (book section) ===================================================*/
+.link{
+	display:flex;
+	margin-left:65px;
+	margin-right:65px;
+	display:flex;
+	flex-direction:row;
+}
+.box{
+	border:2px solid blue;
+	/*box-shadow:0 0 20px 2px rgba(5,7,0.1);*/
+	width:200px;
+	text-align:center;
+	padding:12px;
+	margin:12px;
+	background-color:rgb(2,2,26);
+	border-radius:20px;
+	transition:1s;
+}
+.lnk{
+	background-color:white;
+	color:white;
+	text-decoration:none;
+}
+.box:hover{
+	transform:scale(0.7);
+	z-index:1;
+}
+ /*=========================================== Part of project (Table)============================================*/
+ 
+.table{
+	margin-left:65px;
+	margin-right:65px;
+	margin:12px;
+	padding:12px;
+	display:flex;
+	justify-content:center;
+}
+table{
+	width:80%;
+	height:80px;
+}
+.tr{
+    background-color:rgb(2,2,26);
+	color:white;
+}
+th{
+	border-collapse:collapse;
+	border:1px solid gray;
+}
+td{
+	border-bottom:1px solid gray;
+}
+.proj{
+	background-color:white;
+	color:gray;
+}
