@@ -86,4 +86,7 @@ input#reset:hover{
 .message{
 	margin-top:30px;
 }
+.message1{
+	border: 1px solid red;
+	}
 
