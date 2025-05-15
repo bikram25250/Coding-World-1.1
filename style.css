@@ -9,7 +9,7 @@ body{
     } 
 nav{
 	 display:flex;
-	 justify-content:space-around;
+	 justify-content:space-between;
 	 background-color:rgb(2,2,26);
 	 color: white;
 
