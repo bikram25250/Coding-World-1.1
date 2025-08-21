@@ -12,7 +12,8 @@ nav{
 	 justify-content:space-between;
 	 background-color:rgb(2,2,26);
 	 color: white;
-
+	 position: sticky;
+     top: 0px;
    }	
 nav ul{
 	   display:flex;
@@ -208,6 +209,7 @@ h5{
 	margin:5px;
 	padding:5px;
 }
+
 
 
 
