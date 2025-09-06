@@ -72,12 +72,12 @@ select{
 	color:white;
 }
 input#submit:hover{
-	background-color:green;
-	border:2px solid blue;
+	background-color:rgb(31,30,27);
+	border:2px solid rgb(14,207,46);
 }
 input#reset:hover{
-	background-color:red;
-	border:2px solid blue;
+	background-color:rgb(31,30,27);
+	border:2px solid rgb(233,15,15);
 }
 .button{
 	text-align:center;
@@ -89,4 +89,5 @@ input#reset:hover{
 .message1{
 	border: 1px solid red;
 	}
+
 
